@@ -51,13 +51,16 @@
 							amount++;
 						if (mtrx2[x][y] == value)
 							amount2++;
+						if (amount == amount2)
+						flag--;
+
 
 					}
 				}
 			}
 		}
 
-		if (amount == amount2)
+		if (flag == 1)
 			printf("the arrays have the same numbers");
 		else
 			printf("the arrays dont have the same numbers");
