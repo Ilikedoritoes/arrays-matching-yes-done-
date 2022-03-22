@@ -51,12 +51,11 @@
 							amount++;
 						if (mtrx2[x][y] == value)
 							amount2++;
-						if (amount == amount2)
-						flag--;
-
-
 					}
 				}
+
+				if (amount == amount2)
+					flag++;
 			}
 		}
 
